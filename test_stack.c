@@ -95,6 +95,7 @@ int main()
    Pop(&S);
    Pop(&S);
    
+   //shows reamining elements in stack, should show an empty stack 
    printf("\n\nCurrent elements in stack after calling pop function two more times:\n\n\n");
    for(i = 0; i <= S.top; i++){
 	   printf("\nElement %d in stack: (%.6lf, %.6lf)", i+1, S.points[i].x, S.points[i].y);
