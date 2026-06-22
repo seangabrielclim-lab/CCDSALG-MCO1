@@ -63,7 +63,7 @@ int main(){
 	printf("Points to sort:\n\n");
 	printPoints(noAnchor, 7);
 	
-	
+	// shows the expected and actual outputs of the selection sort algorithm, should show identical arrays
 	printf("\n\nTesting Selection Sort Algorithm\n\n");
 	printf("--------------------------------\n\n");
 	
@@ -76,7 +76,8 @@ int main(){
 	selectionSort(noAnchor, p0, 7);
 	
 	printPoints(noAnchor, 7);
-	
+
+	// shows the expected and actual outputs of the quick sort algorithm, should show identical arrays
 	printf("\n\nTesting Quick Sort Algorithm\n\n");
 	printf("--------------------------------\n\n");
 	
