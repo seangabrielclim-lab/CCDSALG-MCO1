@@ -26,7 +26,7 @@
 
 /*
     a. Name of Programmer(s):  Jugno, Daniel Christopher
-    b. Name of Tester(s)    :  Lim, Sean
+    b. Name of Tester(s)    :  Lim, Sean & Chua, Hannelle
     c. Code Type -- 100% Human Generated 
     d. Purpose: this function will check if the turn between two points is counterclockwise, clowckwise, or the points are collinear
     e. Return: returns -1 if clockwise, 1 if counterclockwise, 0 if collinear
@@ -44,7 +44,7 @@ int checkTurn(Point a, Point b, Point c){
 
 /*
     a. Name of Programmer(s):  Jugno, Daniel Christopher
-    b. Name of Tester(s)    :  Lim, Sean
+    b. Name of Tester(s)    :  Lim, Sean & Chua, Hannelle
     c. Code Type -- 100% Human Generated 
     d. Purpose: this function will use the quick sort algorithm to produce a faster version of graham's scan algorithm
     e. Return: returns the number of points that make up the convex hull
