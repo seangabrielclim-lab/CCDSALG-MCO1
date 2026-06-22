@@ -1,6 +1,14 @@
 #include <stdio.h>
 #include "sort.c"
 
+/*
+    a. Name of Programmer(s):  Jugno, Daniel Christopher
+    b. Name of Tester(s)    :  Lim, Sean
+    c. Code Type -- 100% Human Generated 
+    d. Purpose: this function will print the points 
+    e. Return: None
+    f. Parameters: points is the array that stores the points, n is the number of elements in the points array   
+*/
 void printPoints(Point points[], int n){
 	int i;
 	for (i = 0; i < n; i++){
@@ -45,8 +53,9 @@ int main(){
 			j++;
 		}	
 	}
-	
-	printf("Sample set of unordered points:\n\n");
+
+	//Prints the unordered points, then the anchor point, then the array of points with the anchor removed
+	printf("Sample set of unordered points:\n\n"); 
 	printPoints(points, 8);
 	
 	printf("\nAnchor Point: %.6lf, %.6lf\n\n", p0.x, p0.y);
