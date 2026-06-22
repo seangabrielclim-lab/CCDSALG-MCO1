@@ -26,7 +26,7 @@
 
 /*
     a. Name of Programmer(s):  Jugno, Daniel Christopher
-    b. Name of Tester(s)    :  Lim, Sean
+    b. Name of Tester(s)    :  Lim, Sean & Chua, Hannelle
     c. Code Type -- 100% Human Generated 
     d. Purpose: this function will create the stack, the top is initialized to -1
     e. Return: None
@@ -38,7 +38,7 @@ void Create(Stack *S){
 
 /*
     a. Name of Programmer(s):  Jugno, Daniel Christopher
-    b. Name of Tester(s)    :  Lim, Sean
+    b. Name of Tester(s)    :  Lim, Sean & Chua, Hannelle
     c. Code Type -- 100% Human Generated 
     d. Purpose: this function will push an element to the top of the stack
     e. Return: None
@@ -53,7 +53,7 @@ void Push(Stack *S, Point elem){
 
 /*
     a. Name of Programmer(s):  Jugno, Daniel Christopher
-    b. Name of Tester(s)    :  Lim, Sean
+    b. Name of Tester(s)    :  Lim, Sean & Chua, Hannelle
     c. Code Type -- 100% Human Generated 
     d. Purpose: this function will pop an element at the top of the stack
     e. Return: the element that was popped, otherwise returns an empty point
@@ -74,7 +74,7 @@ Point Pop(Stack *S){
 
 /*
     a. Name of Programmer(s):  Jugno, Daniel Christopher
-    b. Name of Tester(s)    :  Lim, Sean
+    b. Name of Tester(s)    :  Lim, Sean & Chua, Hannelle
     c. Code Type -- 100% Human Generated 
     d. Purpose: this function will show the current top element of the stack
     e. Return: the top element, otherwise returns an empty point
@@ -94,7 +94,7 @@ Point Top(Stack *S){
 
 /*
     a. Name of Programmer(s):  Jugno, Daniel Christopher
-    b. Name of Tester(s)    :  Lim, Sean
+    b. Name of Tester(s)    :  Lim, Sean & Chua, Hannelle
     c. Code Type -- 100% Human Generated 
     d. Purpose: this function will show the next element after the current top element of the stack
     e. Return: the element that is next in line after the top of the stack, otherwise returns an empty point
@@ -114,7 +114,7 @@ Point NextToTop(Stack *S){
 
 /*
     a. Name of Programmer(s):  Jugno, Daniel Christopher
-    b. Name of Tester(s)    :  Lim, Sean
+    b. Name of Tester(s)    :  Lim, Sean & Chua, Hannelle
     c. Code Type -- 100% Human Generated 
     d. Purpose: this function will check if the stack is full or not
     e. Return: true if stack is full, false otherwise
@@ -129,7 +129,7 @@ bool IsFull(Stack *S){
 
 /*
     a. Name of Programmer(s):  Jugno, Daniel Christopher
-    b. Name of Tester(s)    :  Lim, Sean
+    b. Name of Tester(s)    :  Lim, Sean & Chua, Hannelle
     c. Code Type -- 100% Human Generated 
     d. Purpose: this function will check if the stack is empty or not
     e. Return: true if stack is empty, false otherwise
