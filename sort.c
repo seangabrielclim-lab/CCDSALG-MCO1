@@ -8,7 +8,7 @@
     LIM,   SEAN GABRIEL        S09
     CHUA,  HANELLE CELINNE     S09 
 
-    PURPOSE OF THIS FILE: contains the stack operations such as create, push, and pop
+    PURPOSE OF THIS FILE: contains the sort functions like selection sort, quick sort, and associated helper functions
 
     >> GENERAL INSTRUCTIONS: NON-COMPLIANCE WILL RESULT INTO AT LEAST A 10 POINT DEDUCTION!
     1. Adhere with good programming style and practice (learned from CCPROG1 and CCPROG2).
