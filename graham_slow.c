@@ -6,7 +6,7 @@
 
     JUGNO, DANIEL CHRISTOPHER  S04
     LIM,   SEAN GABRIEL        S09
-    CHUA,  HANELLE CELINNE     S09 
+    CHUA,  HANNELLE CELINNE     S09 
 
     PURPOSE OF THIS FILE: contains the code for the slow version of the Graham scan algorithm
 
