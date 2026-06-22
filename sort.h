@@ -18,3 +18,5 @@ void selectionSort(Point points[], Point p0, int n);
 int partition(Point points[], Point p0, int low, int high);
 
 void quickSort(Point points[], Point p0, int low, int high);
+
+void anchorToFirst(Point points[], int n, Point p0);
