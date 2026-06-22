@@ -7,7 +7,7 @@
     LIM,   SEAN GABRIEL        S09
     CHUA,  HANELLE CELINNE     S09 
 
-    PURPOSE OF THIS FILE: to test and call the stack operations defined in stack.c
+    PURPOSE OF THIS FILE: tests the sort functions in sort.c
 
     >> GENERAL INSTRUCTIONS: NON-COMPLIANCE WILL RESULT INTO AT LEAST A 10 POINT DEDUCTION!
     1. Adhere with good programming style and practice (learned from CCPROG1 and CCPROG2).
