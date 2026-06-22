@@ -21,7 +21,7 @@
 
 /*
     a. Name of Programmer(s):  Jugno, Daniel Christopher
-    b. Name of Tester(s)    :  Lim, Sean
+    b. Name of Tester(s)    :  Lim, Sean & Chua, Hannelle
     c. Code Type -- 100% Human Generated 
     d. Purpose: this function will print the points 
     e. Return: None
