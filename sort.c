@@ -44,6 +44,19 @@ Point searchAnchor(Point points[], int n){
 	return anchor;
 }
 
+void anchorToFirst(Point points[], int n, Point p0){ // function to swap the position of the anchor point to index 0 of the array
+	int i;
+	Point temp;
+	
+	for (i = 0; i < n; i++){
+		if ((points[i].y == p0.y) && (points[i].x == p0.x)){
+			temp = points[i];
+			points[i] = points[0];
+			points[0] = temp;
+		}
+	}
+}
+
 /*
     a. Name of Programmer(s):  Jugno, Daniel Christopher
     b. Name of Tester(s)    :  Lim, Sean
@@ -98,11 +111,11 @@ bool comparePoints(Point p0, Point a, Point b){
     e. Return: none
     f. Parameters: p0 is the anchor point, points is the array of points, n is the number of elements in the array
 */
-void selectionSort(Point points[], Point p0, int n){ // selection sort algorithm which sorts the array not containing the anchor point
+void selectionSort(Point points[], Point p0, int n){ // selection sort algorithm which sorts the array from index 1 to n, assuming p0 is already stored in index 0
 	int i, j, min;									 // based on each point's angle formed with the anchor point, with respect to the horizontal x axis
-	Point temp;										 // collinear points are sorted by their dis
+	Point temp;										 // collinear points are sorted by their distance to p0
 	
-	for (i = 0; i < n-1; i++){
+	for (i = 1; i < n-1; i++){
 		min = i;
 		for (j = i+1; j < n; j++){
 			if (comparePoints(p0, points[j], points[min])){
@@ -162,7 +175,7 @@ int partition(Point points[], Point p0, int low, int high)
     e. Return: none
     f. Parameters: p0 is the anchor point, points is the array of points, low is the lower boundary, high is the upper boundary
 */
-void quickSort(Point points[], Point p0, int low, int high)
+void quickSort(Point points[], Point p0, int low, int high) // assumes index 0 of points[] is already p0 (anchor point)
 {
     int pivotIndex;
 
