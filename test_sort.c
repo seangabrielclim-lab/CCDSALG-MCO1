@@ -64,7 +64,8 @@ int main(){
 	printf("\nAnchor Point: %.6lf, %.6lf\n\n", p0.x, p0.y);
 	
 	anchorToFirst(pointsForSelection, 8, p0);
-	
+
+	//basic test for selection sort algorithm
 	printf("\n\nTesting Selection Sort Algorithm\n\n");
 	printf("--------------------------------\n\n");
 	
@@ -79,7 +80,7 @@ int main(){
 	printPoints(pointsForSelection, 8);
 	
 	
-	
+	//basic test of quick sort algorithm
 	printf("\n\nTesting Quick Sort Algorithm\n\n");
 	printf("--------------------------------\n\n");
 	
@@ -97,9 +98,6 @@ int main(){
 	quickSort(pointsForQuick, p0, 1, 7);
 	
 	printPoints(pointsForQuick, 8); // should now display the sorted set, same as the expected */
-	
-	
-	
 	
 	return 0;
 }
