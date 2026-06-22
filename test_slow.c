@@ -46,9 +46,9 @@ int main(){
 			coords[i].y = tempY;
 			i++;
 		}
-		for(i = 0; i < n; i++){
+		/*for(i = 0; i < n; i++){
 			fprintf(stdout, "%lf %lf \n", coords[i].x, coords[i].y);
-		}
+		}*/
 		fclose(input);
 	}
 	else{
