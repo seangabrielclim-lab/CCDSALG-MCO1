@@ -9,7 +9,7 @@ int main(){
 	double y = 0;
 	FILE *fp;
 
-//64
+//Creates a dataset of 64 points
 	fp = fopen("64.txt", "w");
 	
 	fprintf(fp, "64\n");
@@ -21,7 +21,7 @@ int main(){
 	}
 	fclose(fp);
 
-//128	
+//Creates a dataset of 128 points	
 	fp = fopen("128.txt", "w");
 	
 	fprintf(fp, "128\n");
@@ -33,7 +33,7 @@ int main(){
 	}
 	fclose(fp);
 
-//256
+//Creates a dataset of 256 points
 	fp = fopen("256.txt", "w");
 	
 	fprintf(fp, "256\n");
@@ -45,7 +45,7 @@ int main(){
 	}
 	fclose(fp);
 
-//512
+//Creates a dataset of 512 points
 	fp = fopen("512.txt", "w");
 	
 	fprintf(fp, "512\n");
@@ -57,7 +57,7 @@ int main(){
 	}
 	fclose(fp);
 
-//1024
+//Creates a dataset of 1024 points
 	fp = fopen("1024.txt", "w");
 	
 	fprintf(fp, "1024\n");
@@ -69,7 +69,7 @@ int main(){
 	}
 	fclose(fp);
 
-//2048
+//Creates a dataset of 2048 points
 	fp = fopen("2048.txt", "w");
 	
 	fprintf(fp, "2048\n");
@@ -81,7 +81,7 @@ int main(){
 	}
 	fclose(fp);
 
-//4096
+//Creates a dataset of 4096 points
 	fp = fopen("4096.txt", "w");
 	
 	fprintf(fp, "4096\n");
@@ -93,7 +93,7 @@ int main(){
 	}
 	fclose(fp);
 
-//8192
+//Creates a dataset of 8192 points
 	fp = fopen("8192.txt", "w");
 	
 	fprintf(fp, "8192\n");
@@ -105,7 +105,7 @@ int main(){
 	}
 	fclose(fp);
 
-//16384
+//Creates a dataset of 16384 points
 	fp = fopen("16384.txt", "w");
 	
 	fprintf(fp, "16384\n");
@@ -117,7 +117,7 @@ int main(){
 	}
 	fclose(fp);
 
-//32768
+//Creates a dataset of 32768 points
 	fp = fopen("32768.txt", "w");
 	
 	fprintf(fp, "32768\n");
