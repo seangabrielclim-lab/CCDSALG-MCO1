@@ -1,3 +1,6 @@
+#ifndef STACK_H
+#define STACK_H
+
 /*
 
     >> Encode your group number (2 digits) and last names, first names and sections of group members.  Encode the purpose of this file.
@@ -15,8 +18,18 @@
     3. Do NOT use global variables!  NON-COMPLIANCE WILL RESULT INTO A 10 POINT DEDUCTION!
 */
 
-#ifndef STACK_H
-#define STACK_H
+/*
+    You may encode any of the following below this comment the following:   
+    1. #define directives
+    2. typedef alias(es) 
+    3. declaration of your user-defined struct data type(s)
+    4. typedef alias(es) for your struct data type(s) -- you have to put an inline comment 
+       for each struct member as part of the documentation. 
+
+    The header should NOT include the codes for any function definitions.  
+
+    Function definitions should be encoded in your C source file only!
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -48,5 +61,7 @@ Point NextToTop(Stack *S);
 bool IsFull(Stack *S);
 
 bool IsEmpty(Stack *S);
+
+#endif
 
   
