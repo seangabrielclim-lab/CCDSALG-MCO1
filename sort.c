@@ -24,7 +24,7 @@
 
 /*
     a. Name of Programmer(s):  Jugno, Daniel Christopher
-    b. Name of Tester(s)    :  Lim, Sean
+    b. Name of Tester(s)    :  Lim, Sean & Chua, Hannelle
     c. Code Type -- 100% Human Generated 
     d. Purpose: this function will search for the anchor point
     e. Return: returns the anchor point (lowest y value point, and the leftmost instead incase of two equal bottom most y values)
@@ -59,7 +59,7 @@ void anchorToFirst(Point points[], int n, Point p0){ // function to swap the pos
 
 /*
     a. Name of Programmer(s):  Jugno, Daniel Christopher
-    b. Name of Tester(s)    :  Lim, Sean
+    b. Name of Tester(s)    :  Lim, Sean & Chua, Hannelle
     c. Code Type -- 100% Human Generated 
     d. Purpose: this function will calculate the angle between the anchor point and a another given point
     e. Return: returns the angle formed by a point and the anchor point, in reference to the horizontal x axis
@@ -71,7 +71,7 @@ double computeAngle(Point p0, Point a){
 
 /*
     a. Name of Programmer(s):  Jugno, Daniel Christopher
-    b. Name of Tester(s)    :  Lim, Sean
+    b. Name of Tester(s)    :  Lim, Sean & Chua, Hannelle
     c. Code Type -- 100% Human Generated 
     d. Purpose: this function will compute the distance between two points
     e. Return: returns the distance between the two points a and b
@@ -84,7 +84,7 @@ double computeDistance(Point a, Point b){
 
 /*
     a. Name of Programmer(s):  Jugno, Daniel Christopher
-    b. Name of Tester(s)    :  Lim, Sean
+    b. Name of Tester(s)    :  Lim, Sean & Chua, Hannelle
     c. Code Type -- 100% Human Generated 
     d. Purpose: this function will compare two points a and b by the angle they form with p0
     e. Return: returns true if a forms a smaller angle with p0, false if b forms a smaller angle with p0. In case points are collinear, returns true if point a is closer in distance to p0
@@ -105,7 +105,7 @@ bool comparePoints(Point p0, Point a, Point b){
 
 /*
     a. Name of Programmer(s):  Jugno, Daniel Christopher
-    b. Name of Tester(s)    :  Lim, Sean
+    b. Name of Tester(s)    :  Lim, Sean & Chua, Hannelle
     c. Code Type -- 100% Human Generated 
     d. Purpose: this function will sort the array of points using selection sort, excluding the anchor point
     e. Return: none
