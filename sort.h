@@ -3,7 +3,7 @@
 
 
 
-
+//Function prototypes that will be defined in sort.c
 
 Point searchAnchor(Point points[], int n);
 
