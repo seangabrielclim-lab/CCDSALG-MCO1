@@ -1,3 +1,6 @@
+#ifndef SORT_H
+#define SORT_H
+
 #include <stdbool.h>
 #include "stack.h"
 
